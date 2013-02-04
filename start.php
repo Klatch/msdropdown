@@ -1,10 +1,9 @@
 <?php
-// Include the msdropdown javascript library and associated CSS. Elgg already supplies jQuery.
 
+// Add the css and js by extending head
 function msdropdown_init() {
 	elgg_extend_view('page/elements/head', 'msdropdown/metatags');
 }
-
-// Make sure the profile initialisation function is called on initialisation
+// init
 elgg_register_event_handler('init','system','msdropdown_init');
 
