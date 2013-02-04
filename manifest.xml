@@ -15,24 +15,4 @@
 		<type>elgg_release</type>
 		<version>1.8.0</version>
 	</requires>
-	<requires>
-		<type>plugin</type>
-		<name>access_privacity</name>
-		<priority>before</priority>
-	</requires>
-	<requires>
-		<type>priority</type>
-		<plugin>access_privacity</plugin>
-		<priority>before</priority>
-	</requires>
-	<requires>
-		<type>plugin</type>
-		<name>mood</name>
-		<priority>before</priority>
-	</requires>
-	<requires>
-		<type>priority</type>
-		<plugin>mood</plugin>
-		<priority>before</priority>
-	</requires>
 </plugin_manifest>
